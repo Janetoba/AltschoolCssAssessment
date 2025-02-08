@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  padding: 80px 30px 30px 270px;
+  height: 382px;
+
+  background-color: white;
+  color: black;
+  border-bottom: 8px solid #6666;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.content {
+  width: 40%;
+}
+
+.content > h2 {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+  text-align: left;
+  padding: 25px 0;
+}
+
+.content > p {
+  padding: 12px 0;
+}
+
+.highlight {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  color: #009966;
+}
+
+.container-2 {
+  height: 450px;
+  padding: 20px;
+  display: flex;
+  background-color: #999999;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1px;
+
+  width: 808px;
+  padding: 20px;
+  position: relative;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 80px 10px 10px 10px;
+}
+
+.card-header {
+  position: absolute;
+  top: 5px;
+  left: -1%;
+  background: #ffbf00;
+  color: black;
+  padding: 5px;
+  border-bottom: 8px solid #cc9900;
+  font-family: Lato;
+
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.card-text {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

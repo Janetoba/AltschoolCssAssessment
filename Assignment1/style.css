@@ -1,0 +1,39 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background-color: #313030;
+}
+
+.container {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  width: 25%;
+
+  padding: 15px;
+  position: relative;
+}
+
+.header {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: rgb(255, 10, 141);
+  padding: 8px;
+  border-radius: 4px;
+  width: 80%;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
