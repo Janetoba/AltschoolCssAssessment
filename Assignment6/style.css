@@ -346,8 +346,8 @@ li:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(./assets/Group\ 3-1.png) left center no-repeat,
-    url(./assets/Group\ 2.png) right center no-repeat;
+  background: url(Assets/Group\ 3-1.png) left center no-repeat,
+    url(Assets/Group\ 2.png) right center no-repeat;
   background-color: #1e3448;
 }
 
@@ -410,8 +410,8 @@ form > p > a {
   align-items: center;
   flex-direction: column;
   padding: 40px;
-  background: url(./assets/Group\ 3-2.png) left center no-repeat,
-    url(./assets/Group\ 2.png) right bottom no-repeat;
+  background: url(Assets/Group\ 3-2.png) left center no-repeat,
+    url(Assets/Group\ 2.png) right bottom no-repeat;
 }
 
 .container7 > h3 {
@@ -472,8 +472,8 @@ form > p > a {
 
 .container8 {
   height: 300px;
-  background: url(./Assets/Grp4.png) left center no-repeat,
-    url(./Assets/Grp2.png) right bottom no-repeat;
+  background: url(Assets/Grp4.png) left center no-repeat,
+    url(Assets/Grp2.png) right bottom no-repeat;
   background-color: #1e3448;
   display: flex;
   justify-content: center;
@@ -499,8 +499,8 @@ form > p > a {
 }
 
 footer {
-  background: url(./Assets/Grp3.png) left bottom no-repeat,
-    url(./Assets/Group\ 2-1.png) right bottom no-repeat;
+  background: url(Assets/Grp3.png) left bottom no-repeat,
+    url(Assets/Group\ 2-1.png) right bottom no-repeat;
 }
 
 .footer-a {
